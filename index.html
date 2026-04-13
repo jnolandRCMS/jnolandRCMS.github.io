@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CS Class Project Showcase</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #dbe3ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      padding: 48px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 32px auto;
+      padding: 0 20px 40px;
+    }
+
+    .intro {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    }
+
+    .period-section {
+      margin-bottom: 28px;
+    }
+
+    .period-title {
+      margin: 0 0 14px;
+      font-size: 1.4rem;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .project-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+
+    .project-card p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .project-card a {
+      display: inline-block;
+      text-decoration: none;
+      background: var(--accent);
+      color: white;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .project-card a:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      padding: 25px 15px 40px;
+      font-size: 0.95rem;
+    }
+
+    .note {
+      margin-top: 14px;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CS Class Project Showcase</h1>
+    <p>Welcome to our student project gallery</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>About This Site</h2>
+      <p>
+        This website highlights student work from computer science class. Each project link below can open a student website, game page, or coding project.
+      </p>
+      <p class="note">
+        Replace the sample names and links below with your real student project names and URLs.
+      </p>
+    </section>
+
+    <section class="period-section">
+      <h2 class="period-title">Period 1</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>John's Website</h3>
+          <p>A sample student portfolio website.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Sarah's Game Page</h3>
+          <p>A showcase page for a coding project.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Malik's Animation</h3>
+          <p>A page featuring a student animation project.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="period-section">
+      <h2 class="period-title">Period 2</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Ava's Website</h3>
+          <p>A sample project link for another class period.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Jordan's App Page</h3>
+          <p>A simple webpage for sharing student work.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Mia's Creative Project</h3>
+          <p>A student-designed website with custom styling.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Computer Science Class Showcase
+  </footer>
+</body>
+</html>
