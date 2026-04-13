@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: darkblue;
+}
+
+nav {
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+img {
+    margin-top: 15px;
+}
